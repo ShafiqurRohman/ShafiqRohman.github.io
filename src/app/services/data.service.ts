@@ -20,4 +20,98 @@ export class DataService {
   getAboutMe() {
     return this.about;
   }
+
+  Frameworks: any = [
+    {
+      'id': '1',
+      'skill': 'ANGULAR 12+',
+      'progress': '85%'
+    },
+    {
+      'id': '2',
+      'skill': 'ASP.NET WEB API',
+      'progress': '80%'
+    },
+    {
+      'id': '3',
+      'skill': 'EF CORE',
+      'progress': '80%'
+    },
+    {
+      'id': '4',
+      'skill': 'MY SQL',
+      'progress': '75%'
+    },
+    {
+      'id': '5',
+      'skill': 'Oracle SQL',
+      'progress': '75%'
+    }
+  ];
+
+  Language: any = [
+    {
+      'id': '1',
+      'skill': 'C++',
+      'progress': '95%'
+    },
+    {
+      'id': '2',
+      'skill': 'C#',
+      'progress': '80%'
+    },
+    {
+      'id': '3',
+      'skill': 'TypeScript',
+      'progress': '80%'
+    },
+    {
+      'id': '4',
+      'skill': 'Python',
+      'progress': '50%'
+    },
+    {
+      'id': '5',
+      'skill': 'Java',
+      'progress': '50%'
+    }
+  ];
+
+  TOOLs: any = [
+    {
+      'id': '1',
+      'skill': 'GITHUB, GITLAB',
+      'progress': '95%'
+    },
+    {
+      'id': '2',
+      'skill': 'Microsoft Windows',
+      'progress': '90%'
+    },
+    {
+      'id': '3',
+      'skill': 'Linux',
+      'progress': '50%'
+    },
+    {
+      'id': '4',
+      'skill': 'Trello',
+      'progress': '95%'
+    },
+    {
+      'id': '5',
+      'skill': 'Docker',
+      'progress': '50%'
+    }
+  ];
+  
+  GetLanguage(): Observable<any> {
+    return this.Language;
+  }
+  GetFrameworks(): Observable<any> {
+    return this.Frameworks;
+  }
+  GetTools(): Observable<any> {
+    return this.TOOLs;
+  }
 }

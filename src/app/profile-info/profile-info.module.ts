@@ -7,6 +7,7 @@ import { IntroductionComponent } from './introduction/introduction.component';
 import { FormsModule } from '@angular/forms';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { SkillComponent } from './skill/skill.component';
 
 
 
@@ -16,7 +17,8 @@ import { AboutMeComponent } from './about-me/about-me.component';
     NavbarComponent,
     FooterComponent,
     IntroductionComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    SkillComponent
   ],
   imports: [
     CommonModule,
