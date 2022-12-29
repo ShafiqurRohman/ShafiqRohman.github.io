@@ -114,4 +114,51 @@ export class DataService {
   GetTools(): Observable<any> {
     return this.TOOLs;
   }
+
+  projects: any = [
+    {
+      id: 1,
+      title: 'Programmer Aid',
+      desc: 'I am a Co-Founder of programmer aid and here I also work as a software developer and project planner and designer. This project helps me to learn a lot and It is a great experience for me to work with Alamin Hossain who is also Founder.',
+      livedemo: 'https://programmeraid.com/',
+      githurl: 'https://gitlab.com/alamin_bs23/programmer_aid',
+      imgUrl: 'assets/images/programmeraid.JPG',
+      tech: 'Angular 12 , ASP.NET 5.0, MsSQL Server, Bootstrap 5, Typescript, C#'
+    },
+
+    {
+      id: 2,
+      title: 'Hall Digitalization',
+      desc: 'I work as a software developer. I designed the project and implemented features with help of Angular and Dotnet 5 for using on the back end to create the API and JWT authentication. This project is used to manage Hall’s students and meals. We can handle multiple halls.',
+      livedemo: 'https://smrh.just.edu.bd/',
+      githurl: 'https://gitlab.com/alamin_bs23/halldigitilization',
+      imgUrl: 'assets/images/hall.JPG',
+      tech: 'Angular 12 , ASP.NET 5.0, MsSQL Server, Bootstrap 5, Typescript, C#'
+    },
+    
+    {
+      id: 3,
+      title: 'Personal Portfolio',
+      desc: 'I create the project in Angular 15, leatest version of Angular, and create structure my own way that help to create a dynamic and reusalble website for everyone.Furthermore, I also use Mehul Kothari,s UI in my Portpolio for more resposive and attractive look.',
+      livedemo: 'http://www.shafiqur.me',
+      githurl: 'https://github.com/ShafiqurRohman/ShafiqRohman.github.io',
+      imgUrl: 'assets/images/personal.JPG',
+      tech: 'Angular 15, Bootstrap, TypeScript, CSS'
+    },
+
+    {
+      id: 4,
+      title: 'Java MCQ Quiz App',
+      desc: 'I have designed the project feature and implemented all required features.Java AWT is used in the project. In addition, this project is used for the MCQ test online.',
+      livedemo: '',
+      githurl: 'https://github.com/ShafiqurRohman/Java-MCQ-Test',
+      imgUrl: 'assets/images/javap.JPG',
+      tech: 'Java, Java AWT'
+    }
+
+  ]
+
+  getProjects(): Observable<any> {
+    return this.projects;
+  }
 }

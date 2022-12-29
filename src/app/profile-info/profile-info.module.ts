@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { SkillComponent } from './skill/skill.component';
+import { ProjectComponent } from './project/project.component';
 
 
 
@@ -18,7 +19,8 @@ import { SkillComponent } from './skill/skill.component';
     FooterComponent,
     IntroductionComponent,
     AboutMeComponent,
-    SkillComponent
+    SkillComponent,
+    ProjectComponent
   ],
   imports: [
     CommonModule,
