@@ -1263,79 +1263,79 @@ textarea.form-control:focus, textarea.form-control:active {
   background: rgba(255, 255, 255, 0.3);
 }
 
-.progress-container.progress-neutral .progress-bar {
-  background: #FFFFFF;
-}
+  .progress-container.progress-neutral .progress-bar {
+    background: #030303;
+  }
 
-.progress-container.progress-neutral .progress-value,
-.progress-container.progress-neutral .progress-badge {
-  color: #FFFFFF;
-}
+  .progress-container.progress-neutral .progress-value,
+  .progress-container.progress-neutral .progress-badge {
+    color: #030303;
+  }
 
 .progress-container.progress-primary .progress {
   background: rgba(10, 49, 68, 0.349);
 }
 
-.progress-container.progress-primary .progress-bar {
-  background: #00334D;
-}
+  .progress-container.progress-primary .progress-bar {
+    background: #104a15;
+  }
 
-.progress-container.progress-primary .progress-value,
-.progress-container.progress-primary .progress-badge {
-  color: #00334D;
-}
+  .progress-container.progress-primary .progress-value,
+  .progress-container.progress-primary .progress-badge {
+    color: #030303;
+  }
 
 .progress-container.progress-info .progress {
   background: rgba(44, 168, 255, 0.3);
 }
 
-.progress-container.progress-info .progress-bar {
-  background: #2CA8FF;
-}
+  .progress-container.progress-info .progress-bar {
+    background: #030303;
+  }
 
-.progress-container.progress-info .progress-value,
-.progress-container.progress-info .progress-badge {
-  color: #2CA8FF;
-}
+  .progress-container.progress-info .progress-value,
+  .progress-container.progress-info .progress-badge {
+    color: #042b12;
+  }
 
 .progress-container.progress-success .progress {
   background: rgba(24, 206, 15, 0.3);
 }
 
-.progress-container.progress-success .progress-bar {
-  background: #18ce0f;
-}
+  .progress-container.progress-success .progress-bar {
+    background: #030303;
+  }
 
-.progress-container.progress-success .progress-value,
-.progress-container.progress-success .progress-badge {
-  color: #18ce0f;
-}
+  .progress-container.progress-success .progress-value,
+  .progress-container.progress-success .progress-badge {
+    color: #042b12;
+  }
 
 .progress-container.progress-warning .progress {
   background: rgba(255, 178, 54, 0.3);
 }
 
-.progress-container.progress-warning .progress-bar {
-  background: #FFB236;
-}
+  .progress-container.progress-warning .progress-bar {
+    background: #030303;
+  }
 
-.progress-container.progress-warning .progress-value,
-.progress-container.progress-warning .progress-badge {
-  color: #FFB236;
-}
+  .progress-container.progress-warning .progress-value,
+  .progress-container.progress-warning .progress-badge {
+    color: #030303;
+  }
 
 .progress-container.progress-danger .progress {
   background: rgba(255, 54, 54, 0.3);
 }
 
-.progress-container.progress-danger .progress-bar {
-  background: #FF3636;
-}
+  .progress-container.progress-danger .progress-bar {
+    background: #030303;
+  }
 
-.progress-container.progress-danger .progress-value,
-.progress-container.progress-danger .progress-badge {
-  color: #FF3636;
-}
+  .progress-container.progress-danger .progress-value,
+  .progress-container.progress-danger .progress-badge {
+    color: #042b12;
+  }
 
 button,
 input,
