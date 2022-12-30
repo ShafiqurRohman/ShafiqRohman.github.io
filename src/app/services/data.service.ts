@@ -13,7 +13,7 @@ export class DataService {
 
   cvurl = "https://drive.google.com/file/d/1AVMFYDzzvNJoc2i4nDL33NIB9s3eKzhY/view"
 
-  getResume(){
+  getResume() {
     return this.cvurl;
   }
   about = "I’m a competitive programmer and co‑founder of Programmer Aid, a programming content‑sharing and problem solve tracking website. Although I am Looking to establish a career in Information Technology, I wish to work in a growth‑oriented company and contribute to the organization’s development while upgrading my skill set knowledge. I have solved 1200+ problems in various online judging platforms. In addition, I attended the national competitive programming contest, and Hackathon, and learned a lot about algorithms coding and how to work with a team to solve problems."
@@ -104,7 +104,7 @@ export class DataService {
       'progress': '50%'
     }
   ];
-  
+
   GetLanguage(): Observable<any> {
     return this.Language;
   }
@@ -135,11 +135,11 @@ export class DataService {
       imgUrl: 'assets/images/hall.JPG',
       tech: 'Angular 12 , ASP.NET 5.0, MsSQL Server, Bootstrap 5, Typescript, C#'
     },
-    
+
     {
       id: 3,
       title: 'Personal Portfolio',
-      desc: 'I create the project in Angular 15, leatest version of Angular, and create structure my own way that help to create a dynamic and reusalble website for everyone.Furthermore, I also use Mehul Kothari,s UI in my Portpolio for more resposive and attractive look.',
+      desc: 'I create the project in Angular 15, leatest version of Angular, and create structure my own way that help to create a dynamic and reusalble website for everyone.Furthermore, I also follow Mehul Kothari,s UI in my Portpolio for more resposive and attractive look.',
       livedemo: 'http://www.shafiqur.me',
       githurl: 'https://github.com/ShafiqurRohman/ShafiqRohman.github.io',
       imgUrl: 'assets/images/personal.JPG',
@@ -160,5 +160,12 @@ export class DataService {
 
   getProjects(): Observable<any> {
     return this.projects;
+  }
+
+  contact: any = [
+  ]
+
+  getContact(): Observable<any> {
+    return this.contact;
   }
 }

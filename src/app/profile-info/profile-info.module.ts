@@ -9,6 +9,7 @@ import { NgxPaginationModule } from 'ngx-pagination';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { SkillComponent } from './skill/skill.component';
 import { ProjectComponent } from './project/project.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 
@@ -20,7 +21,8 @@ import { ProjectComponent } from './project/project.component';
     IntroductionComponent,
     AboutMeComponent,
     SkillComponent,
-    ProjectComponent
+    ProjectComponent,
+    ContactComponent
   ],
   imports: [
     CommonModule,

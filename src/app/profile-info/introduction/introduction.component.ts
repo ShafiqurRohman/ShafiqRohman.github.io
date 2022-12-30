@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import Typed from 'typed.js';
 import { DataService } from '../../services/data.service';
 
 @Component({
@@ -15,8 +16,17 @@ export class IntroductionComponent implements OnInit {
 
   ngOnInit(): void {
     this.cvUrl = this.dataService.cvurl;
-    console.log(this.cvUrl);
-    console.log("ami ekhane");
+
+    var options = {
+      strings: ['', 'Competitive programmer', 'Software Developer', 'Co-founder of Programmeraid', 'Angular developer','Dotnet Developer', 'Full Stack Developer', 'Web Developer'],
+      typeSpeed: 120,
+      backSpeed: 100,
+      loop: true,
+    };
+
+    var typed = new Typed('.typed', options);
+    typed.reset(true)
+    
   }
 
 }
