@@ -15,6 +15,7 @@ export class IntroductionComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    
     this.cvUrl = this.dataService.cvurl;
 
     var options = {
@@ -26,7 +27,6 @@ export class IntroductionComponent implements OnInit {
 
     var typed = new Typed('.typed', options);
     typed.reset(true)
-    
   }
 
 }

@@ -1,0 +1,52 @@
+<div class="section" id="reference">
+  <div class="container cc-reference">
+    <div class="h4 mb-4 text-center title">References</div>
+
+    <div class="card shadow-lg  rounded pb-3" data-aos="fade-right" data-aos-delay="300">
+      <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselIndicators" data-slide-to="0" class="not-active active"></li>
+          <li data-target="#carouselIndicators" data-slide-to="1" class="not-active"></li>
+          <!--
+          <li data-target="#carouselIndicators" data-slide-to="2" class="not-active"></li> -->
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item" [ngClass]="{active:index==0}" *ngFor="let reference of references;let index=index">
+            <div class="d-block w-120">
+              <div class="row">
+                <div class="col-lg-4 col-md-12">
+                  <div class="row ml-5">
+                    <div class="mt-0">
+                      <img class="d-block w-150 rounder" src="{{reference.personImg}}"
+                           alt="slide">
+                    </div>
+                  </div>
+                  <div class="row ml-5">
+                    <span class="text-size"><strong>{{reference.personFullname}}</strong></span>
+                  </div>
+                  <div class="row ml-5">
+                      <span><strong>{{reference.personPosition}}</strong></span>
+                  </div>
+                  <div class="row ml-5">
+                      <span class="text-uppercase">{{reference.personCompany}}</span>
+                  </div>
+                  <div class="row ml-5">
+                    <span>{{reference.mail}}</span>
+                  </div>
+                </div>
+                <div class="card-body ml-4 mr-3 mt-4 col-lg-7 col-md-12">
+                  <div class="row">
+                    <span>
+                      {{reference.message}}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>

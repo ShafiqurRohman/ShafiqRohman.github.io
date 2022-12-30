@@ -11,6 +11,8 @@ import { SkillComponent } from './skill/skill.component';
 import { ProjectComponent } from './project/project.component';
 import { ContactComponent } from './contact/contact.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { ReferenceComponent } from './reference/reference.component';
+import { EducationComponent } from './education/education.component';
 
 
 
@@ -24,7 +26,9 @@ import { ExperienceComponent } from './experience/experience.component';
     SkillComponent,
     ProjectComponent,
     ContactComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    ReferenceComponent,
+    EducationComponent
   ],
   imports: [
     CommonModule,

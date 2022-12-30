@@ -192,7 +192,7 @@ export class DataService {
       work: [
         'Worked as a full stack developer .Responsible for handling the UI in Angular and Managing the api calls in Dotnet 5.',
         'Worked as a project planner and designer. I designed the project and implemented features with help of Angular and Dotnet 5 for using on the back end to create the API and JWT authentication.',
-        
+
       ]
     },
     {
@@ -212,5 +212,80 @@ export class DataService {
 
   getExprience(): Observable<any> {
     return this.exprienceData;
+  }
+
+  references: any = [
+   /* {
+      personImg: "assets/images/shayokh.jpg",
+      personFullname: 'Mr. Md. Al Shayokh',
+      personPosition: "Assistant Professor & Head",
+      personCompany: 'Department of IT,UITS',
+      mail: 'al.shayokh@uits.edu.bd',
+      message: "Shafiq is a student in my department and I teach him in many courses. Shafiq is an excellent working student with high knowledge in education, programming problem solving and software development, he is always keen to move forward without ever being afraid to use new technologies. He does not hesitate to help his friends whenever he can. He manages to solve problems quickly and efficiently with typical optimism.",
+    },
+    */
+    {
+      personImg: "assets/images/istiaq.jpg",
+      personFullname: 'Md. Ishtiaq Iqbal',
+      personPosition: "Lecturer and Course Coordinator",
+      personCompany: 'Department of IT,UITS',
+      mail: 'Ishtiaq.Iqbal@uits.edu.bd',
+      message: "Shafiq is a student in my department and I teach him in many courses. Shafiq is an excellent working student with high knowledge in education, programming problem solving and software development, he is always keen to move forward without ever being afraid to use new technologies. He does not hesitate to help his friends whenever he can. He manages to solve problems quickly and efficiently with typical optimism.",
+    },
+    
+    {
+      personImg: "assets/images/alamin.png",
+      personFullname: 'Alamin Hossain',
+      personPosition: "Software Engineer",
+      personCompany: 'TigerIT',
+      mail: 'alamin.cse.justian@gmail.com',
+      message: "I worked for two years with Shafiq at ProgrammerAid and JUST Hall Project. Shafiq is a very good working partner with high knowledge in backend and frontend development, he is always keen to move forward without ever being afraid to use new technologies. He does not hesitate to help his colleagues whenever he can. He manages to solve problems quickly and efficiently with typical optimism.",
+    }
+  ]
+
+  getReferences(): Observable<any> {
+    return this.references;
+  }
+
+  educations: any = [
+    {
+      id: 1,
+      year: '2019 - 2023',
+      degreeType: "Bachelor's Degree",
+      degreeName: 'Information Technology',
+      institution: 'University of Information Technology and Sciences (UITS)',
+      keyPoints: [
+        'Maintained above 3.80 cgpa in every semester of university academic.',
+        'Attending Intra‐university programming contests.',
+        'Attending Intra‐university hackathon contests.',
+      ]
+    },
+    {
+      id: 2,
+      year: '2016 - 2018',
+      degreeType: "Higher Secondary",
+      degreeName: 'Higher Secondary Certificate (HSC)',
+      institution: 'Gulshan Model Uccha Maddhyamik Biddalya',
+      keyPoints: [
+        'The High School was mainly focus on the bases of science, mathematics, and Chemistry',
+        'There was also a good base on physics, mathematics',
+        'The school was also focus on the English language and literature',
+      ]
+    },
+    {
+      id: 3,
+      year: '2014 - 2015',
+      degreeType: "Secondary School",
+      degreeName: 'Secondary School Certificate (SSC)',
+      institution: 'Gobindapur High School',
+      keyPoints: [
+        'Become first position in the school in SSC examination',
+        'The High School was mainly focus on the bases of science,Physics, Mathematics, and Chemistry',
+        'The school was also focus on the English language and literature',
+      ]
+    },
+  ]
+  getEducations(): Observable<any> {
+    return this.educations;
   }
 }

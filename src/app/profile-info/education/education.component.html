@@ -1,0 +1,26 @@
+<div class="section" id="education">
+  <div class="container cc-education">
+    <div class="h4 text-center mb-4 title">Education</div>
+
+    <div *ngFor="let education of educations" class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-education-header">
+            <p>{{education.year}}</p>
+            <div class="h5">{{education.degreeType}}</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">{{education.degreeName}}</div>
+            <h4 class="category">{{education.institution}}</h4>
+            <ul *ngFor="let keyPoint of education.keyPoints">
+              <li class="m-0 p-0">{{keyPoint}} </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
