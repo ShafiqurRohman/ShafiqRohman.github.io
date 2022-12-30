@@ -1,7 +1,7 @@
-# ShafiqPortfolio
+# Shafiq's Planet(Portfolio)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
-
+ I create the project in Angular 15, leatest version of Angular, and create structure my own way that help to create a dynamic and reusalble website for everyone.Furthermore, I also follow and use mehulk05's UI in my Portpolio for more resposive and attractive look.
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
