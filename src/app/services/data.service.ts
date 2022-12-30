@@ -168,4 +168,49 @@ export class DataService {
   getContact(): Observable<any> {
     return this.contact;
   }
+
+  exprienceData: any = [
+    {
+      id: 1,
+      company: 'Programmer Aid',
+      location: 'Dhaka, Bangladesh',
+      timeline: 'September 2021 to Present',
+      role: 'Software Developer',
+      work: [
+        'Worked as a full stack developer .Responsible for handling the UI in Angular and Managing the api calls in Dotnet 5.',
+        'Worked as a project planner and designer. I designed the project and implemented features with help of Angular and Dotnet 5 for using on the back end to create the API and JWT authentication.',
+        'Worked as a co-founder. I managed the project'
+      ]
+
+    },
+    {
+      id: 2,
+      company: 'JUST Hall Digitalization(Freelance)',
+      location: 'Dhaka, Bangladesh',
+      timeline: 'Feb 2021 to September 2021',
+      role: 'Software Developer',
+      work: [
+        'Worked as a full stack developer .Responsible for handling the UI in Angular and Managing the api calls in Dotnet 5.',
+        'Worked as a project planner and designer. I designed the project and implemented features with help of Angular and Dotnet 5 for using on the back end to create the API and JWT authentication.',
+        
+      ]
+    },
+    {
+      id: 3,
+      company: 'UITS Programmers Hub',
+      location: 'UITS, Dhaka, Bangladesh',
+      timeline: 'Jan 2020 ‐ Present',
+      role: 'Senior Executive and Mentor',
+      work: [
+        'Worked as a problem setter Intra‐university programming contests.',
+        'Worked as a programming instructor and mentor..',
+        'Arranging Intra ‐ university programming contests.'
+
+      ]
+    }
+  ]
+
+  getExprience(): Observable<any> {
+    return this.exprienceData;
+  }
 }

@@ -10,6 +10,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { SkillComponent } from './skill/skill.component';
 import { ProjectComponent } from './project/project.component';
 import { ContactComponent } from './contact/contact.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 
 
@@ -22,7 +23,8 @@ import { ContactComponent } from './contact/contact.component';
     AboutMeComponent,
     SkillComponent,
     ProjectComponent,
-    ContactComponent
+    ContactComponent,
+    ExperienceComponent
   ],
   imports: [
     CommonModule,
