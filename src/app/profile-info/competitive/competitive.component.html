@@ -1,0 +1,69 @@
+<div class="section" id="Competitive-Programming">
+  <div class="container">
+    <div class="h4 text-center mb-4 title">Competitive Programming</div>
+    <div class="card">
+      <div class="card-body">
+        <div class="row">
+          
+          <div class="text-center col-md-12">
+            <div class="progress-container progress-primary">
+              <span class="text-center mb-4 title headline">Onsite Contest and Hackathon</span>
+            </div>
+
+            <pagination-controls (pageChange)="pageChanged1($event)"></pagination-controls>
+            <div class="row d-flex justify-content-center">
+              <ng-container *ngFor="let cpInfo of cpInfoOnsite| paginate: config1">
+                <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+                  <div class="blog-entry">
+                    <div class="card">
+                      <img class="card-img-top" src={{cpInfo.imgUrl}} onerror="this.src = 'assets/images/gif.gif'" alt="Card image" style="width:100%">
+                      <div class="card-body">
+                        <h4 class="card-title">{{cpInfo.contestName}}</h4>
+                        <p class="card-text"><b>Host : </b> <span class="host">{{cpInfo.host}}</span> </p>
+                        <p class="card-text"><b>Team Name : </b> <span class="team">{{cpInfo.teamName}}</span> </p>
+                        <span *ngIf="cpInfo.stand"><p><b>Position : </b> <strong>{{cpInfo.stand}}</strong> </p></span>
+                        <h5 class="card-text">{{cpInfo.summary}}</h5>
+                        <a target="_blank" href={{cpInfo.siteStand}} class="btn btn-primary stretched-link ml-2 mr-5">Contest Stand</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </ng-container>
+            </div>
+          </div>
+
+          <div class="col-md-12 text-center">
+            
+            <div class="progress-container progress-primary">
+              <span class="text-center mb-4 title headline">Online Competitive Programming</span>
+            </div>
+
+            <div class="tab-content gallery mt-5">
+              <div class="tab-pane active" id="web-development">
+                <div class="ml-auto mr-auto">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-12" *ngFor="let cpInfo of cpInfoOnline">
+                      <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                        <a href={{cpInfo.url}}>
+                          <figure class="cc-effect">
+                            <img src={{cpInfo.img}} alt="Image" />
+                            <figcaption>
+                              <div class="h4">{{cpInfo.title}}</div>
+
+                            </figcaption>
+                          </figure>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

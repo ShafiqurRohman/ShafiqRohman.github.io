@@ -13,6 +13,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ReferenceComponent } from './reference/reference.component';
 import { EducationComponent } from './education/education.component';
+import { CompetitiveComponent } from './competitive/competitive.component';
 
 
 
@@ -28,7 +29,8 @@ import { EducationComponent } from './education/education.component';
     ContactComponent,
     ExperienceComponent,
     ReferenceComponent,
-    EducationComponent
+    EducationComponent,
+    CompetitiveComponent
   ],
   imports: [
     CommonModule,
