@@ -11,7 +11,7 @@ export class DataService {
     private http: HttpClient
   ) { }
 
-  cvurl = "https://drive.google.com/file/d/1AVMFYDzzvNJoc2i4nDL33NIB9s3eKzhY/view"
+  cvurl = "https://drive.google.com/file/d/1kPbmpccDDWQ3GB1pgSXj8moGEp4opP0z/view"
 
   getResume() {
     return this.cvurl;
