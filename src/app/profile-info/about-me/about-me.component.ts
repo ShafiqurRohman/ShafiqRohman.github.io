@@ -9,6 +9,7 @@ import { DataService } from '../../services/data.service';
 export class AboutMeComponent implements OnInit {
 
   aboutMe: any;
+  basicInfo: any;
 
   constructor(
     private dataService: DataService
@@ -16,6 +17,7 @@ export class AboutMeComponent implements OnInit {
 
   ngOnInit(): void {
     this.aboutMe = this.dataService.getAboutMe();
+    this.basicInfo = this.dataService.getBasicInfo();
   }
 
 }

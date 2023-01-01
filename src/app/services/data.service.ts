@@ -162,11 +162,24 @@ export class DataService {
     return this.projects;
   }
 
-  contact: any = [
-  ]
+  basicInfo: any ={
+      age: '23 YEARS OLD',
+      mail: 'shafiqur.me@gmail.com',
+      phone: '+880 1832908662',
+      address: 'VATARA,DHAKA-1212, BANGLADESH',
+      language: 'English, Bengali',
+  }
+
+  getBasicInfo(): Observable<any> {
+    return this.basicInfo;
+  }
+
+  contactInfo: any = {
+  }
+    
 
   getContact(): Observable<any> {
-    return this.contact;
+    return this.contactInfo;
   }
 
   exprienceData: any = [
@@ -230,7 +243,7 @@ export class DataService {
       personPosition: "Lecturer and Course Coordinator",
       personCompany: 'Department of IT,UITS',
       mail: 'Ishtiaq.Iqbal@uits.edu.bd',
-      message: "Shafiq is a student in my department and I teach him in many courses. Shafiq is an excellent working student with high knowledge in education, programming problem solving and software development, he is always keen to move forward without ever being afraid to use new technologies. He does not hesitate to help his friends whenever he can. He manages to solve problems quickly and efficiently with typical optimism.",
+      message: "Shafiq is a student in my department and I teach him in many courses. Shafiq is an excellent working student with high knowledge in education, programming problem solving and software development, he is always keep to move forward without ever being afraid to use new technologies. He does not hesitate to help his friends whenever he can. He manages to solve problems quickly and efficiently with typical optimism.",
     },
     
     {

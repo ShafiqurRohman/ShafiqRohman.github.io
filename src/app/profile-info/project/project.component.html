@@ -17,8 +17,9 @@
                 <span *ngIf="project.livedemo">
                   <a target="_blank" href={{project.livedemo}} class="btn btn-primary stretched-link ml-2 mr-5">See Live</a>
                 </span>
-                <a target="_blank" href={{project.githurl}} class="btn btn-primary stretched-link">GithubLink</a>
-
+                <span *ngIf="project.githurl">
+                  <a target="_blank" href={{project.githurl}} class="btn btn-primary stretched-link">GithubLink</a>
+                </span>
               </div>
             </div>
           </div>
