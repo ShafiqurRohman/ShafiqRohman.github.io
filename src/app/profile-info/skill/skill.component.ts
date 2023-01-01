@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component} from '@angular/core';
 import { DataService } from '../../services/data.service';
 
 @Component({
@@ -6,15 +6,15 @@ import { DataService } from '../../services/data.service';
   templateUrl: './skill.component.html',
   styleUrls: ['./skill.component.css']
 })
-export class SkillComponent implements OnInit {
+export class SkillComponent {
 
   frameworks: any
   languages: any
   tools: any
 
-  constructor(private dataService: DataService) { }
-
-  ngOnInit() {
+  constructor(
+    private dataService: DataService
+  ) {
     this.frameworks = this.dataService.GetFrameworks();
     this.languages = this.dataService.GetLanguage();
     this.tools = this.dataService.GetTools();

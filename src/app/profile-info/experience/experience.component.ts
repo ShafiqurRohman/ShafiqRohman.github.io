@@ -11,9 +11,8 @@ export class ExperienceComponent {
 
   constructor(
     private dataService: DataService
-  ) { }
-
-  ngOnInit() {
+  ) {
     this.workexp = this.dataService.getExprience();
   }
+
 }

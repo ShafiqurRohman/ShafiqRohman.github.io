@@ -10,9 +10,9 @@ export class ProjectComponent {
   config: any;
   projects: any = [];
 
-  constructor(private dataservice: DataService) { }
-
-  ngOnInit() {
+  constructor(
+    private dataservice: DataService
+  ) {
     this.projects = this.dataservice.getProjects();
     this.config = {
       itemsPerPage: 3,

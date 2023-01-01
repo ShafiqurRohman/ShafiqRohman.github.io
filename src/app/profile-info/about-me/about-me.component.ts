@@ -6,16 +6,14 @@ import { DataService } from '../../services/data.service';
   templateUrl: './about-me.component.html',
   styleUrls: ['./about-me.component.css']
 })
-export class AboutMeComponent implements OnInit {
+export class AboutMeComponent{
 
   aboutMe: any;
   basicInfo: any;
 
   constructor(
     private dataService: DataService
-  ) { }
-
-  ngOnInit(): void {
+  ) {
     this.aboutMe = this.dataService.getAboutMe();
     this.basicInfo = this.dataService.getBasicInfo();
   }
