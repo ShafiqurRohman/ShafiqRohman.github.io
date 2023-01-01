@@ -228,15 +228,15 @@ export class DataService {
   }
 
   references: any = [
-   /* {
+    {
       personImg: "assets/images/shayokh.jpg",
       personFullname: 'Mr. Md. Al Shayokh',
       personPosition: "Assistant Professor & Head",
       personCompany: 'Department of IT,UITS',
       mail: 'al.shayokh@uits.edu.bd',
-      message: "Shafiq is a student in my department and I teach him in many courses. Shafiq is an excellent working student with high knowledge in education, programming problem solving and software development, he is always keen to move forward without ever being afraid to use new technologies. He does not hesitate to help his friends whenever he can. He manages to solve problems quickly and efficiently with typical optimism.",
+      message: "Shafiq is a student in my department and I teach him in many courses. Shafiq is an excellent working student with high knowledge in education, programming problem solving and software development, he is always keep to move forward without ever being afraid to use new technologies. He does not hesitate to help his friends whenever he can. He manages to solve problems quickly and efficiently with typical optimism.",
     },
-    */
+    
     {
       personImg: "assets/images/istiaq.jpg",
       personFullname: 'Md. Ishtiaq Iqbal',
@@ -250,9 +250,9 @@ export class DataService {
       personImg: "assets/images/alamin.png",
       personFullname: 'Alamin Hossain',
       personPosition: "Software Engineer",
-      personCompany: 'TigerIT',
+      personCompany: 'Tiger IT Bangladesh Limited',
       mail: 'alamin.cse.justian@gmail.com',
-      message: "I worked for two years with Shafiq at ProgrammerAid and JUST Hall Project. Shafiq is a very good working partner with high knowledge in backend and frontend development, he is always keen to move forward without ever being afraid to use new technologies. He does not hesitate to help his colleagues whenever he can. He manages to solve problems quickly and efficiently with typical optimism.",
+      message: "I worked for two years with Shafiq at ProgrammerAid and JUST Hall Project. Shafiq is a very good working partner with high knowledge in backend and frontend development and also he is very good at competitive programming, he is always keep to move forward without ever being afraid to use new technologies. He does not hesitate to help his colleagues whenever he can. He manages to solve problems quickly and efficiently with typical optimism.",
     }
   ]
 

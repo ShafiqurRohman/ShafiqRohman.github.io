@@ -7,8 +7,8 @@
         <ol class="carousel-indicators">
           <li data-target="#carouselIndicators" data-slide-to="0" class="not-active active"></li>
           <li data-target="#carouselIndicators" data-slide-to="1" class="not-active"></li>
-          <!--
-          <li data-target="#carouselIndicators" data-slide-to="2" class="not-active"></li> -->
+          
+          <li data-target="#carouselIndicators" data-slide-to="2" class="not-active"></li> 
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item" [ngClass]="{active:index==0}" *ngFor="let reference of references;let index=index">
@@ -17,7 +17,7 @@
                 <div class="col-lg-4 col-md-12">
                   <div class="row ml-5">
                     <div class="mt-0">
-                      <img class="d-block w-150 rounder" src="{{reference.personImg}}"
+                      <img class="d-block w-150 rounder shafiq" src="{{reference.personImg}}"
                            alt="slide">
                     </div>
                   </div>
@@ -28,7 +28,7 @@
                       <span><strong>{{reference.personPosition}}</strong></span>
                   </div>
                   <div class="row ml-5">
-                      <span class="text-uppercase">{{reference.personCompany}}</span>
+                      <span>{{reference.personCompany}}</span>
                   </div>
                   <div class="row ml-5">
                     <span>{{reference.mail}}</span>
