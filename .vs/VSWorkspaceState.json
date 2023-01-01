@@ -3,14 +3,10 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\profile-info",
-    "\\src\\app\\profile-info\\introduction",
-    "\\src\\app\\profile-info\\nabvar",
-    "\\src\\app\\profile-info\\profile-show",
+    "\\src\\app\\profile-info\\reference",
     "\\src\\app\\services",
     "\\src\\assets",
-    "\\src\\assets\\js"
+    "\\src\\assets\\images"
   ],
-  "SelectedNode": "\\src\\assets\\js\\aos.js",
   "PreviewInSolutionExplorer": false
 }
