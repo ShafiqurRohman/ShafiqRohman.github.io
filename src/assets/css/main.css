@@ -4868,8 +4868,8 @@ img {
   content: "";
   border: 15px solid rgba(55, 140, 63, 0.6);
   border-radius: 50%;
-  height: 180px;
-  width: 180px;
+  height: 220px;
+  width: 220px;
   position: absolute;
   left: 0;
   -webkit-animation: pulsate 1.6s ease-out;
@@ -4883,8 +4883,8 @@ img {
 .cc-profile-image img {
   position: relative;
   border-radius: 50%;
-  height: 180px;
-  width: 180px;
+  height: 220px;
+  width: 220px;
   padding: 0;
   margin: 0;
   border: 15px solid transparent;
