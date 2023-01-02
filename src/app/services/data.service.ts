@@ -265,8 +265,8 @@ export class DataService {
       id: 1,
       year: '2019 - 2023',
       degreeType: "Bachelor's Degree",
-      degreeName: 'Information Technology',
-      institution: 'University of Information Technology and Sciences (UITS)',
+      degreeName: 'Information Technology (IT)',
+      institution: 'University of Information Technology and Sciences',
       keyPoints: [
         'Maintained above 3.80 cgpa in every semester of university academic.',
         'Attending Intra‐university programming contests.',
