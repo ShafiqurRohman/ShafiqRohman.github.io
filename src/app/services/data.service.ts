@@ -184,11 +184,22 @@ export class DataService {
 
   exprienceData: any = [
     {
-      id: 1,
+      id: 4,
+      company: 'SELISE Digital Platforms',
+      location: 'Dhaka, Bangladesh',
+      timeline: 'March 2023 to Present',
+      role: 'Software Engineer Intern',
+      work: [
+        'Learning Software Development',
+      ]
+
+    },
+    {
+      id: 3,
       company: 'Programmer Aid',
       location: 'Dhaka, Bangladesh',
       timeline: 'September 2021 to Present',
-      role: 'Software Developer',
+      role: 'Co-Founder',
       work: [
         'Worked as a full stack developer .Responsible for handling the UI in Angular and Managing the api calls in Dotnet 5.',
         'Worked as a project planner and designer. I designed the project and implemented features with help of Angular and Dotnet 5 for using on the back end to create the API and JWT authentication.',
@@ -209,7 +220,7 @@ export class DataService {
       ]
     },
     {
-      id: 3,
+      id: 1,
       company: 'UITS Programmers Hub',
       location: 'UITS, Dhaka, Bangladesh',
       timeline: 'Jan 2020 ‐ Present',
