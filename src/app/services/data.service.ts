@@ -11,12 +11,12 @@ export class DataService {
     private http: HttpClient
   ) { }
 
-  cvurl = "https://drive.google.com/file/d/1kPbmpccDDWQ3GB1pgSXj8moGEp4opP0z/view"
+  cvurl = "https://drive.google.com/file/d/1W5PUodb7qO6Ttl1UzOtFwGT0uMdYmUOI/view?usp=share_linkhttps://drive.google.com/file/d/1W5PUodb7qO6Ttl1UzOtFwGT0uMdYmUOI/view"
 
   getResume() {
     return this.cvurl;
   }
-  about = "I’m a competitive programmer and co‑founder of Programmer Aid, a programming content‑sharing and problem solve tracking website. Although I am Looking to establish a career in Information Technology, I wish to work in a growth‑oriented company and contribute to the organization’s development while upgrading my skill set knowledge. I have solved 1200+ problems in various online judging platforms. In addition, I attended the national competitive programming contest, and Hackathon, and learned a lot about algorithms coding and how to work with a team to solve problems."
+  about = "I’m a competitive programmer and co-founder of programmeraid.com, which is a programming content-sharing and problem-solving tracking website for Bengali programmers. I am looking to establish a career in information technology. I wish to work for a growth-oriented company and contribute to the organization's development while upgrading my skill set. I have solved 1500+ problems on various online judging platforms. In addition, I attended the national competitive programming contest and learned a lot about algorithms, coding, and how to work with a team to solve problems. I am a learner of Angular and ASP.NET Core."
   getAboutMe() {
     return this.about;
   }
@@ -24,84 +24,84 @@ export class DataService {
   Frameworks: any = [
     {
       'id': '1',
-      'skill': 'ANGULAR 12+',
-      'progress': '85%'
+      'skill': 'ANGULAR 8+',
+      'imageUrl': 'https://img.icons8.com/fluency/48/null/angularjs.png'
     },
     {
       'id': '2',
       'skill': 'ASP.NET WEB API',
-      'progress': '80%'
+      'imageUrl': 'https://img.icons8.com/color/48/null/net-framework.png'
     },
     {
       'id': '3',
-      'skill': 'EF CORE',
-      'progress': '80%'
+      'skill': 'HTML, CSS',
+      'imageUrl': 'https://img.icons8.com/color/48/null/source-code.png'
     },
     {
       'id': '4',
-      'skill': 'MY SQL',
-      'progress': '75%'
+      'skill': 'MS SQL',
+      'imageUrl': 'https://img.icons8.com/color/48/null/microsoft-sql-server.png'
     },
     {
       'id': '5',
       'skill': 'Oracle SQL',
-      'progress': '75%'
+      'imageUrl': 'https://img.icons8.com/color/48/null/oracle-logo.png'
     }
   ];
 
   Language: any = [
     {
       'id': '1',
-      'skill': 'C++',
-      'progress': '95%'
+      'skill': 'C/C++',
+      'imageUrl': 'https://img.icons8.com/color/48/null/c-plus-plus-logo.png'
     },
     {
       'id': '2',
       'skill': 'C#',
-      'progress': '80%'
+      'imageUrl': 'https://img.icons8.com/color/48/null/c-sharp-logo-2.png'
     },
     {
       'id': '3',
-      'skill': 'TypeScript',
-      'progress': '80%'
+      'skill': 'JavaScript/TypeScript',
+      'imageUrl': 'https://img.icons8.com/fluency/48/null/typescript--v2.png'
     },
     {
       'id': '4',
       'skill': 'Python',
-      'progress': '50%'
+      'imageUrl': 'https://img.icons8.com/color/48/null/python--v1.png'
     },
     {
       'id': '5',
       'skill': 'Java',
-      'progress': '50%'
+      'imageUrl': 'https://img.icons8.com/color/48/null/java-coffee-cup-logo--v1.png'
     }
   ];
 
   TOOLs: any = [
     {
       'id': '1',
-      'skill': 'GITHUB, GITLAB',
-      'progress': '95%'
+      'skill': 'GITHUB',
+      'imageUrl': 'https://img.icons8.com/ios-filled/48/null/github.png'
     },
     {
       'id': '2',
-      'skill': 'Microsoft Windows',
-      'progress': '90%'
+      'skill': 'Linux/Windows',
+      'imageUrl': 'https://img.icons8.com/fluency/48/null/operating-system.png'
     },
     {
       'id': '3',
-      'skill': 'Linux',
-      'progress': '50%'
+      'skill': 'GITLAB',
+      'imageUrl': 'https://img.icons8.com/color/48/null/gitlab.png'
     },
     {
       'id': '4',
       'skill': 'Trello',
-      'progress': '95%'
+      'imageUrl': 'https://img.icons8.com/color/48/null/trello.png'
     },
     {
       'id': '5',
       'skill': 'Docker',
-      'progress': '50%'
+      'imageUrl': 'https://img.icons8.com/fluency/48/null/docker.png'
     }
   ];
 
@@ -332,17 +332,27 @@ export class DataService {
 
   cpInfoOnsites: any = [
     {
-      id: 6,
+      id: 8,
+      contestName: 'ICPC ASIA DHAKA REGIONAL CONTEST ONSITE - 2022',
+      teamName: 'UITS_O(struggle)',
+      host: 'GREEN UNIVERSITY OF BANGLADESH',
+      summary: 'It was a good experience for our team because we solved 3 problems in our university history.But our standing was not good as your expectation.We tried five problem and we are able to solve 3 of them.It was my first onsite ICPC',
+      siteStand: 'https://algo.codemarshal.org/contests/dhaka-22/standings',
+      stand: '91th',
+      imgUrl: 'assets/images/icpc-pic.jpg',
+    },
+    {
+      id: 7,
       contestName: 'CodeSamurai Inter-University Hackathon (2022)',
       teamName: 'UITS_TESTATHON',
-      host: ' University Of Dhaka',
+      host: 'University Of Dhaka',
       summary: 'I completed my first hackathon, CodeSamurai 2022, at the University Of Dhaka.It was a good experience for our team because of real- life problem - solving and how to solve that within a fixed time frame.Its a great event because the environment likes the best judging panel help,good food and volunteers, and other facilities.',
       siteStand: 'https://www.codesamuraibd.net/',
       stand: '',
       imgUrl: 'assets/images/codesamurai.jpeg',
     },
     {
-      id: 5,
+      id: 6,
       contestName: 'UITS Collaboration Programming Contest 2022(UITS, BUBAT, BUBT) ',
       host: 'University of Information Technology and Sciences (UITS)',
       teamName: 'UITS_O(struggle)',
@@ -350,6 +360,16 @@ export class DataService {
       siteStand: ' https://www.hackerrank.com/contests/uits-collaboration-programming-contest-2022-1667932690/leaderboard',
       stand: 'Champion',
       imgUrl: 'assets/images/uits.jpeg',
+    },
+    {
+      id: 6,
+      contestName: 'Cefalo SUST Inter University Programming Contest 2023',
+      host: 'Shahjalal University of Science and Technology (SUST)',
+      teamName: 'UITS_O(struggle)',
+      summary: 'It was a worst experience for our team because we solve only single problem beacuse of wrong problem choice.But It help our for future contest',
+      siteStand: ' https://toph.co/c/sust-inter-university-2023/standings',
+      stand: '',
+      imgUrl: 'assets/images/sust.jpg',
     },
     {
       id: 4,

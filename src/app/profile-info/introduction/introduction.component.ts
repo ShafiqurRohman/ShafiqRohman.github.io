@@ -19,7 +19,7 @@ export class IntroductionComponent implements OnInit {
     this.cvUrl = this.dataService.cvurl;
 
     var options = {
-      strings: ['', 'Competitive programmer', 'Software Developer', 'Co-founder of Programmeraid', 'Angular developer','Dotnet Developer', 'Full Stack Developer', 'Web Developer'],
+      strings: ['', 'a Competitive programmer', 'interested in Software Development', 'a Co-founder of Programmeraid', 'interested in Angular development', 'interested in Dotnet development', 'interested in Full Stack development'],
       typeSpeed: 120,
       backSpeed: 100,
       loop: true,

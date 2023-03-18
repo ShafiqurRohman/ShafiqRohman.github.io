@@ -10,25 +10,19 @@
               <span class="text-center mb-4 title headline">Language</span>
              </div>
             <div *ngFor="let language of languages" class="progress-container progress-primary">
-              <span class="progress-badge" style="font-weight:bold">{{language.skill}}</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{language.progress}}"></div>
-                <span class="progress-value">{{language.progress}}</span>
-              </div>
+                  <span><img src="{{language.imageUrl}}" /></span>
+                  <span class="language-text">{{language.skill}}</span>
             </div>
           </div>
 
           <div class="col-md-4">
            <div class="progress-container progress-primary">
-             <span class="text-center mb-4 title headline" >Web Technology & Framwork</span>
+             <span class="text-center mb-4 title headline" >Web Technology & DataBase</span>
           </div>
-            <div *ngFor="let framework of frameworks" class="progress-container progress-primary">
-              <span class="progress-badge" style="font-weight:bold">{{framework.skill}}</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{framework.progress }}"></div>
-                <span class="progress-value">{{framework.progress}}</span>
-              </div>
-            </div>
+           <div *ngFor="let framework of frameworks" class="progress-container progress-primary">
+               <span><img src="{{framework.imageUrl}}" /></span>
+               <span class="language-text">{{framework.skill}}</span>
+           </div>
           </div>
 
           <div class="col-md-4">
@@ -36,11 +30,8 @@
               <span class="text-center mb-4 title headline" >Git & Tools</span>
             </div>
             <div *ngFor="let tool of tools" class="progress-container progress-primary">
-              <span class="progress-badge" style="font-weight:bold">{{tool.skill}}</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{tool.progress}}"></div>
-                <span class="progress-value">{{tool.progress}}</span>
-              </div>
+                <span><img src="{{tool.imageUrl}}" /></span>
+                <span class="language-text">{{tool.skill}}</span>
             </div>
           </div>
           
