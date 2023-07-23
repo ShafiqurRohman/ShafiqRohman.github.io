@@ -3,10 +3,8 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\profile-info\\reference",
-    "\\src\\app\\services",
-    "\\src\\assets",
-    "\\src\\assets\\images"
+    "\\src\\app\\services"
   ],
+  "SelectedNode": "\\src\\app\\services\\data.service.ts",
   "PreviewInSolutionExplorer": false
 }

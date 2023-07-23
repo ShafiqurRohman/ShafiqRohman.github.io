@@ -11,7 +11,7 @@ export class DataService {
     private http: HttpClient
   ) { }
 
-  cvurl = "https://drive.google.com/file/d/1W5PUodb7qO6Ttl1UzOtFwGT0uMdYmUOI/view?usp=share_linkhttps://drive.google.com/file/d/1W5PUodb7qO6Ttl1UzOtFwGT0uMdYmUOI/view"
+  cvurl = "https://drive.google.com/file/d/1EmCPWklmYFxGRSSuxvhvTso8YMz2bD8D/view"
 
   getResume() {
     return this.cvurl;
@@ -95,8 +95,8 @@ export class DataService {
     },
     {
       'id': '4',
-      'skill': 'Trello',
-      'imageUrl': 'https://img.icons8.com/color/48/null/trello.png'
+      'skill': 'Jira',
+      'imageUrl': 'https://img.icons8.com/color/48/jira.png'
     },
     {
       'id': '5',
@@ -163,7 +163,7 @@ export class DataService {
   }
 
   basicInfo: any ={
-      age: '23 YEARS OLD',
+      age: '24 YEARS OLD',
       mail: 'shafiqur.me@gmail.com',
       phone: '+880 1832908662',
       address: 'VATARA,DHAKA-1212, BANGLADESH',
@@ -185,12 +185,25 @@ export class DataService {
   exprienceData: any = [
     {
       id: 4,
+      company: 'Universal Computer System',
+      location: 'Tokyo, Japan',
+      timeline: 'June 2023 to Present',
+      role: 'System Software Engineer Trainee',
+      work: [
+        'Learning Japnese Language',
+        'Learning in detail about Python (Programming Language) · Dart · Japanese Language · AWS Lambda · AWS API Gateway · Flutter · Amazon Relational Database Service (RDS)'
+      ]
+
+    },
+    {
+      id: 4,
       company: 'SELISE Digital Platforms',
       location: 'Dhaka, Bangladesh',
-      timeline: 'March 2023 to Present',
+      timeline: 'March 2023 to May 2023',
       role: 'Software Engineer Intern',
       work: [
         'Learning Software Development',
+        'Learning in detail about JavaScript · RxJS · HTML · TypeScript · Cascading Style Sheets (CSS) · Angular · Angular Material'
       ]
 
     },
@@ -245,7 +258,7 @@ export class DataService {
       personPosition: "Assistant Professor & Head",
       personCompany: 'Department of IT,UITS',
       mail: 'al.shayokh@uits.edu.bd',
-      message: "Shafiq is a student in my department and I teach him in many courses. Shafiq is an excellent working student with high knowledge in education, programming problem solving and software development, he is always keep to move forward without ever being afraid to use new technologies. He does not hesitate to help his friends whenever he can. He manages to solve problems quickly and efficiently with typical optimism.",
+      message: "Shafiqur Rohman, a student in my department, is an exceptional and diligent learner whom I have had the pleasure of teaching in various courses. He possesses a profound understanding of education, programming problem-solving, and software development, consistently showcasing his expertise in these areas. Shafiq's unwavering enthusiasm for embracing new technologies sets him apart, as he fearlessly explores innovative solutions. Furthermore, he readily extends a helping hand to his peers, always willing to assist them whenever possible. Notably, Shafiq demonstrates remarkable efficiency and speed when resolving challenges, coupled with an innate optimism that drives his success.",
     },
     
     {
@@ -254,7 +267,7 @@ export class DataService {
       personPosition: "Lecturer and Course Coordinator",
       personCompany: 'Department of IT,UITS',
       mail: 'Ishtiaq.Iqbal@uits.edu.bd',
-      message: "Shafiq is a student in my department and I teach him in many courses. Shafiq is an excellent working student with high knowledge in education, programming problem solving and software development, he is always keep to move forward without ever being afraid to use new technologies. He does not hesitate to help his friends whenever he can. He manages to solve problems quickly and efficiently with typical optimism.",
+      message: "Shafiqur Rohman is a student in my department and I teach him in many courses. Shafiq is an excellent working student with high knowledge in education, programming problem solving and software development, he is always keep to move forward without ever being afraid to use new technologies. He does not hesitate to help his friends whenever he can. He manages to solve problems quickly and efficiently with typical optimism.",
     },
     
     {
