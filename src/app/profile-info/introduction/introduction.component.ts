@@ -9,17 +9,17 @@ import { DataService } from '../../services/data.service';
 })
 export class IntroductionComponent implements OnInit {
   cvUrl: any;
-  
+
   constructor(
     private dataService: DataService
   ) { }
 
   ngOnInit(): void {
-    
+
     this.cvUrl = this.dataService.cvurl;
 
     var options = {
-      strings: ['', 'a Competitive programmer', 'interested in Software Development', 'a Co-founder of Programmeraid', 'interested in Angular development', 'interested in Dotnet development', 'interested in Full Stack development'],
+      strings: ['', 'a Software Engineer', 'a Founder of Programmeraid','a DotNet Developer','a GO developer', 'a Angular developer', 'interested in IoT'],
       typeSpeed: 120,
       backSpeed: 100,
       loop: true,
